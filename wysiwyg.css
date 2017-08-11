@@ -1,0 +1,22 @@
+.card {
+  width: 40%;
+  height: auto;
+  border: black solid 1px;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+div.card:nth-child(odd) {
+    background-color:lightblue;
+}
+
+div.card:nth-child(even) {
+    background-color:lightyellow;
+}
+.border{
+  border: 3px purple dotted;
+}
+img{
+  position: absolute;
+  width: 10%;
+  height: auto;
+}
